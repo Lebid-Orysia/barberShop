@@ -505,11 +505,15 @@ span:last-child {
     width: 300px;
     margin: 0px 30px 44px 0px;
     padding: 8px;
+    outline: none;
 }
+
 
 .contacts__input input:hover {
     color: #fff;
-    border-bottom: (1px solid white);
+}
+input:hover {
+    border-bottom: 1px solid white;
 }
 
 textarea {
@@ -525,10 +529,12 @@ textarea {
     width: 650px;
     margin: 0px 30px 44px 0px;
     padding: 8px;
+    outline: none;
 }
 
 textarea:hover {
     color: #fff;
+    border-bottom: 1px solid white;
 }
 
 .contacts__btn {
@@ -605,16 +611,18 @@ textarea:hover {
     background: rgba(157, 164, 189, 0.4);
 }
 
-.contacts_address p{
-   margin-left: 100px; 
+.contacts_address p {
+    margin-left: 100px;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 55px;
 }
-.footer__info{
+
+.footer__info {
     display: flex;
     align-items: center;
     gap: 40px;
